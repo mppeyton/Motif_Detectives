@@ -1,0 +1,4 @@
+#chr	motif	start	end
+chromosome1:	AGTTGAGGGGGAGTTCA	1	17
+chromosome1:	GGGTCATTTTTGGGTCA	391	407
+chromosome2:	GGTTCATTTTTGGTTCA	85	101
