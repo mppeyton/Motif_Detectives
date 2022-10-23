@@ -29,8 +29,4 @@ print(cgenome)
 #for i in cgenome.keys():
 #	print(i,cgenome[i][0:3])
 
-			#	seqs.append(line)
-			#	print(seqs)
 
-#sequence = ''.join(seq)
-#print(sequence)
