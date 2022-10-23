@@ -41,8 +41,8 @@ def main():
 #capture comand-line arguments
     fasta_file = sys.argv[1]
     motif = sys.argv[2]
-    genome = open_fasta(sequence)
-    motif_match = motif_finder(genome)
+    genome = open_fasta(fasta_file)
+    motif_match = motif_finder(genome, motif)
     print(motif_match)
 
 #    sys.exit(0)
