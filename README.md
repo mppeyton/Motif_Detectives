@@ -1,8 +1,11 @@
-# Motif_Detectives
-Motif detectives proyect for CSHL
+# TEAM Motif_Detectives
+Motif detectives proyect for CSHL "Programming for Biology" course 2022
+
 ## AUTHORS
 
 Brianda Lopez Aviña / Marleny García Lozano / Bana Abolibdeh / Chrissi Heil / Mina Peyton / Aparna Thomas
+
+directed by TA Cynthia Cardinault (Centro de Investiogacion Cientifica de Yucatán)
 
 ## Description
 The purpose of this project is to offer the user a program to identify an specific motif/consensus sequence, a.k.a transcription factor binding site, on their organism genome of interest. 
