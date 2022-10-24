@@ -1,24 +1,20 @@
 #!/usr/bin/env python3
-
+import gzip
 import glob
 import re
 import sys
 cgenome = {}
-
+  
 def open_fasta(fasta_file):
   for file_name in glob.glob(fasta_file):
-    seqs = []
-    with open(fasta_file,'r') as raw:
-      #print(name)
+    seqs=[]
+    with gzip.open(fasta_file,'rt') as raw:
       label_regex = re.compile(r'([IVX]+)')
       label = str(label_regex.findall(file_name)).strip('[]')		
       label = label.replace("'","")
-	#	print(label)
       chromosome_label = 'Chromosome.'+label
-#		print(chromosome_label)
       for line in raw:	
         if line.startswith('>'):
-	#			print(line)
           next
         else:
           line = line.rstrip()

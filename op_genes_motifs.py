@@ -6,7 +6,7 @@ with open ('up_genes_1cell_embryo.txt','r') as genes:
     gene , gene_id , fc , pval = line.split('\t')
     line2 = gene_id
 
-    with open('motif_hits_mapped.out','r') as motif_matches:
+    with open('mapped_motif_hits.out','r') as motif_matches:
       next(motif_matches)
       for line3 in motif_matches:
         line3 = line3.rstrip()
