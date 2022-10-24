@@ -5,7 +5,7 @@ Motif detectives proyect for CSHL "Programming for Biology" course 2022
 
 Brianda Lopez Aviña / Marleny García Lozano / Bana Abolibdeh / Chrissi Heil / Mina Peyton / Aparna Thomas
 
-directed by TA Cynthia Cardinault (Centro de Investiogacion Cientifica de Yucatán)
+Collaboration TA Cynthia Cardinault (Centro de Investiogacion Cientifica de Yucatán)
 
 ## Description
 The purpose of this project is to offer the user a program to identify an specific motif/consensus sequence, a.k.a transcription factor binding site, on their organism genome of interest. 
@@ -28,11 +28,20 @@ To test the code developed, we will use the [C. elegans genome](https://www.goog
 ## Steps
 
 Figure1. Motif finder pipeline
-![MOTIF FINDER PROGRAM](https://github.com/Bla880/Motif_Detectives/blob/main/Fig1.%20Motif%20Pipeline.png)
+![MOTIF FINDER PROGRAM](https://github.com/Bla880/Motif_Detectives/blob/main/Fig1.MotifPipeline.png)
 
-**1. Fasta parser**; extracting data fields from GENOME.fa file ->  [md_fasta_parser.py](https://github.com/cyntsc/Motif_Detectives/blob/main/md_fasta_parser.py)<br>
+**1. Fasta parser**; extracting data fields from GENOME.fa file ->  included in [motif_finder_version2_BA.py](https://github.com/cyntsc/Motif_Detectives/blob/main/motif_finder_version2_BA.py)<br>
 **2. Search for the motif sequence on the genome fasta sequence**; extract *motif coordinates* (# start nucleotide, # end nucleotide) -> [motif_finder_version2_BA.py](https://github.com/cyntsc/Motif_Detectives/blob/main/motif_finder_version2_BA.py)<br>
 **3. gff parse**; extract chromosome number, feature (exon, CDS, mRNA, etc), *feature coordinates* (# start nucleotide, # end nucleotide) and description (gene_ID, protein_ID) -> step included on [gff3_motif_analyzer_CHv3.py](https://github.com/cyntsc/Motif_Detectives/blob/main/gff3_motif_analyzer_CHv3.py)<br>
-**4. Determine which genes on the genome have the motif** pair *motif coordinates* extracted in Step2 with *feature coordinates* extracted on Step3 to determine where in the chromosome the motif is located. This returns a a list of motifs associated with the gene_ID -> step iincluded on [gff3_motif_analyzer_CHv3.py](https://github.com/cyntsc/Motif_Detectives/blob/main/gff3_motif_analyzer_CHv3.py) 
+**4. Determine which genes on the genome have the motif** pair *motif coordinates* extracted in Step2 with *feature coordinates* extracted on Step3 to determine where in the chromosome the motif is located. This returns a a list of motifs associated with the gene_ID -> step iincluded on [gff3_motif_analyzer_CHv3.py](https://github.com/cyntsc/Motif_Detectives/blob/main/gff3_motif_analyzer_CHv3.py) <br>
+<br>
+**Additional step: Application of our scripts on DEGs from RNAseq data** <br>
+*Is your motif present in differentally expressed genes?*
+To answer that question, we proposed to use RNAseq data from two stages in development of C. elegans: oocyta and one-cell stage embryo. This analysis work running only one code -> SCRIPT NAME: [Op_genes_motifs.py](https://github.com/cyntsc/Motif_Detectives/blob/main/op_genes_motifs.py)<br>
 
+INPUTS: <br>
+list of DEGs from data base (already prepared by the authors [up_genes_1cell_embryo.txt](https://github.com/cyntsc/Motif_Detectives/blob/main/up_genes_1cell_embryo.txt)) <br>
+list of motif hits obtained in step4 [motif_hits_mapped.out](https://github.com/cyntsc/Motif_Detectives/blob/main/motif_hits_mapped.out) <br>
+OUTPUTS: <br>
+list of DEGs that have the motif in their sequence (Upregulated_gene_list.txt)
 
