@@ -1,9 +1,9 @@
 #!/usr/bin/env python3 
 
 # 22Oct2022 
-# Written by: Aparna Mariyam Thomas & Mina Peyton
+# By: Aparna Mariyam Thomas, Chrissy Heil, & Mina Peyton
 # CSHL Programming for Biolgy - Final Project: Motif Detective
-# Input: fasta file
+# Input: fasta files from a directory
 # Output: dictionary {Chromosome_number: sequence}
 
 import glob
