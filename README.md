@@ -56,4 +56,5 @@ OUTPUTS: <br>
 - list of DEGs that have the motif in their sequence (STDOUT= [up_genes_match_motif_out.txt](https://github.com/cyntsc/Motif_Detectives/blob/main/up_genes_match_motif_out.txt))
 
 ## Development of a Graphical Visual Interface
-![VISUAL_I](https://github.com/Bla880/Motif_Detectives/blob/main/Fig_2_Graphical_Visual_Interface.png)
+
+![VISUAL_I](https://github.com/Bla880/Motif_Detectives/blob/main/Fig_2_GUI.png)
