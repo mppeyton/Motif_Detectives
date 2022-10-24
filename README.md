@@ -31,11 +31,10 @@ To test the code developed, we will use the [C. elegans](https://www.google.com/
 *MOTIF regular expression - RARE/DR5* ([A|G]G[G|T]T[C|G]A.....[A|G]G[G|T]T[C|G]A)
 
 ## Steps
-
 Figure1. Motif finder pipeline
 ![MOTIF FINDER PROGRAM](https://github.com/Bla880/Motif_Detectives/blob/main/Fig1.MotifPipeline.png)
 
-**1. Fasta parser**; extracting data fields from GENOME.fa.gz file ->  included in [motif_finder_version2_BA.py](https://github.com/cyntsc/Motif_Detectives/blob/main/motif_finder_version2_BA.py) *to run this script, be sure to download in the same directory the [md_fasta_parser.py](https://github.com/cyntsc/Motif_Detectives/blob/main/md_fasta_parser.py) which is the source for fasta parser fuction* <br>
+**1. Fasta parser**; extracting data fields from GENOME.fa.gz file ->  included in [motif_finder_version2_BA.py]() *to run this script, be sure to download in the same directory the [md_fasta_parser.py](https://github.com/cyntsc/Motif_Detectives/blob/main/md_fasta_parser.py) which is the source for fasta parser fuction* <br>
 **2. Search for the motif sequence on the genome fasta sequence**; extract *motif coordinates* (# start nucleotide, # end nucleotide) -> [motif_finder_version2_BA.py](https://github.com/cyntsc/Motif_Detectives/blob/main/motif_finder_version2_BA.py) *to run this script, be sure to download in the same directory the [md_fasta_parser.py](https://github.com/cyntsc/Motif_Detectives/blob/main/md_fasta_parser.py) which is the source for fasta parser fuction* <br>
 STDOUT from Step2= [motif_hit_out.txt](https://github.com/cyntsc/Motif_Detectives/blob/main/motif_hit_out.txt)<br>
 **3. gff parse**; extract chromosome number, feature (exon, CDS, mRNA, etc), *feature coordinates* (# start nucleotide, # end nucleotide) and description (gene_ID, protein_ID) -> step included on [gff3_motif_analyzer.py](https://github.com/cyntsc/Motif_Detectives/blob/main/gff3_motif_analyzer.py) <br>
@@ -47,7 +46,7 @@ To answer that question, we proposed to use RNAseq data from two stages in devel
 <br>
 
 INPUTS for DEGs Analysis: <br>
-- list of DEGs from data base (already prepared by the authors [up_genes_1cell_embryo.txt](https://github.com/cyntsc/Motif_Detectives/blob/main/up_genes_1cell_embryo.txt)) <br>
+- list of DEGs from data base (already prepared by the authors [up_genes_1cell_embryo.tx](https://github.com/cyntsc/Motif_Detectives/blob/main/up_genes_match_motif_out.txt)) <br>
 - list of motif hits obtained in step4 [mapped_motif_hits.out](https://github.com/cyntsc/Motif_Detectives/blob/main/mapped_motif_hits.out) <br>
 <br>
 This analysis work running only one code -> SCRIPT NAME: [Op_genes_motifs.py](https://github.com/cyntsc/Motif_Detectives/blob/main/op_genes_motifs.py)<br>
