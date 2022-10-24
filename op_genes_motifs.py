@@ -12,6 +12,7 @@ with open ('/Users/student/Downloads/up_genes_1cell_embryo.txt','r') as genes:
         line3 = line3.rstrip()
         motif, start , end , chromosome , feature , start , end ,description  = line3.split('\t')
         line4 = description
+        motif1=motif
         if line2 in line4:
-          print(line2,line4)
+          print('upregulated gene: '+line2+' contains this motif:' +motif1,'annotation',line4)
 
