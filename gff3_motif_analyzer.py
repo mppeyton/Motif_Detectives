@@ -52,6 +52,3 @@ with open('motif_hits_mapped.out', 'w') as output:
 	for chromosome, entries in gene_feature.items():
 		for mapped_hit in entries:
 			output.write(mapped_hit + '\n')
-#	print to gui
-			print(f"# motif\tstart\tend\tchr\tfeature\tstart\tend\tID/descripti    on")
-			print(mapped_hit)
