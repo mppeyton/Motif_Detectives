@@ -4,7 +4,9 @@
 import sys
 import re
 import os
+
 import gzip 
+
 
 #line counter
 # length line
