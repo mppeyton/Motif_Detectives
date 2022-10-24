@@ -32,7 +32,8 @@ To test the code developed, we will use the [C. elegans](https://www.google.com/
 
 ## Steps
 Figure1. Motif finder pipeline
-![MOTIF FINDER PROGRAM](https://github.com/Bla880/Motif_Detectives/blob/main/Fig1.MotifPipeline.png)
+
+![MOTIF FINDER PROGRAM](https://github.com/Bla880/Motif_Detectives/blob/main/Fig_1_Motif_finderPIPELINE.png)
 
 **1. Fasta parser**; extracting data fields from GENOME.fa.gz file ->  included in [motif_finder_version2_BA.py]() *to run this script, be sure to download in the same directory the [md_fasta_parser.py](https://github.com/cyntsc/Motif_Detectives/blob/main/md_fasta_parser.py) which is the source for fasta parser fuction* <br>
 **2. Search for the motif sequence on the genome fasta sequence**; extract *motif coordinates* (# start nucleotide, # end nucleotide) -> [motif_finder_version2_BA.py](https://github.com/cyntsc/Motif_Detectives/blob/main/motif_finder_version2_BA.py) *to run this script, be sure to download in the same directory the [md_fasta_parser.py](https://github.com/cyntsc/Motif_Detectives/blob/main/md_fasta_parser.py) which is the source for fasta parser fuction* <br>
