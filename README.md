@@ -18,6 +18,8 @@ INPUTS (links below): <br>
 - GENOME.fa <br>
 - GENOME.gff <br> 
 - selected MOTIF <br>
+
+
 OUTPUT: <br>
 - FILE.txt
 To test the code developed, we will use the [C. elegans](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwicv-qEpPf6AhVTk4kEHQfPAX0QFnoECBQQAQ&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCaenorhabditis_elegans&usg=AOvVaw0_aL9Y_xW2S39CMMZfjS5c) genome (specifically, Chr 1) and the [Retinoic Acid Response Element](https://www.researchgate.net/figure/Alignments-of-known-DR5-RARE-motifs-in-the-promoters-of-the-Cyp26A1-RAR2-RAR2-RAR2_fig1_232304935) motif (RARE-DR5)<br>
