@@ -7,6 +7,9 @@
 # Input: theorectically would take the organism name & motif sequence (incomplete) 
 # Output: fasta and gff3 extraction of motif sequence positions & annotations
 
+
+from Bio import SeqUtils
+from Bio.Seq import Seq
 import gzip
 import wx
 import sys
@@ -108,8 +111,6 @@ class Frame(wx.Frame):
 # fasta motif extraction
 
      #  print('Received click')
-        from Bio.Seq import Seq
-        from Bio import SeqUtils
         seq = ''
         pattern = 'RGKTSANNNNNRGKTSA'
    #[AG]G[GT]T[CG]A.....[AG]G[GT]T[CG]A
