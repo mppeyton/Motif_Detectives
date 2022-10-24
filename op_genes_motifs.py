@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-with open ('/Users/student/Downloads/up_genes_1cell_embryo.txt','r') as genes:
+with open ('up_genes_1cell_embryo.txt','r') as genes:
   next(genes)
   for line in genes:
     line = line.rstrip()
