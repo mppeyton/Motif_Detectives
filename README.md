@@ -20,8 +20,8 @@ INPUTS (links below): <br>
 - selected MOTIF <br>
 <br>
 OUTPUT: <br>
-- FILE.txt 
-
+- FILE.txt
+<br>
 To test the code developed, we will use the [C. elegans](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwicv-qEpPf6AhVTk4kEHQfPAX0QFnoECBQQAQ&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCaenorhabditis_elegans&usg=AOvVaw0_aL9Y_xW2S39CMMZfjS5c) genome (specifically, Chr 1) and the [Retinoic Acid Response Element](https://www.researchgate.net/figure/Alignments-of-known-DR5-RARE-motifs-in-the-promoters-of-the-Cyp26A1-RAR2-RAR2-RAR2_fig1_232304935) motif (RARE-DR5)<br>
 <br>
 **INPUT FILES:**
@@ -47,10 +47,10 @@ To answer that question, we proposed to use RNAseq data from two stages in devel
 <br>
 
 INPUTS for DEGs Analysis: <br>
-list of DEGs from data base (already prepared by the authors [up_genes_1cell_embryo.txt](https://github.com/cyntsc/Motif_Detectives/blob/main/up_genes_1cell_embryo.txt)) <br>
-list of motif hits obtained in step4 [mapped_motif_hits.out](https://github.com/cyntsc/Motif_Detectives/blob/main/mapped_motif_hits.out) <br>
+- list of DEGs from data base (already prepared by the authors [up_genes_1cell_embryo.txt](https://github.com/cyntsc/Motif_Detectives/blob/main/up_genes_1cell_embryo.txt)) <br>
+- list of motif hits obtained in step4 [mapped_motif_hits.out](https://github.com/cyntsc/Motif_Detectives/blob/main/mapped_motif_hits.out) <br>
 <br>
 This analysis work running only one code -> SCRIPT NAME: [Op_genes_motifs.py](https://github.com/cyntsc/Motif_Detectives/blob/main/op_genes_motifs.py)<br>
 <br>
 OUTPUTS: <br>
-list of DEGs that have the motif in their sequence (STDOUT= [up_genes_match_motif_out.txt](https://github.com/cyntsc/Motif_Detectives/blob/main/up_genes_match_motif_out.txt))
+- list of DEGs that have the motif in their sequence (STDOUT= [up_genes_match_motif_out.txt](https://github.com/cyntsc/Motif_Detectives/blob/main/up_genes_match_motif_out.txt))
