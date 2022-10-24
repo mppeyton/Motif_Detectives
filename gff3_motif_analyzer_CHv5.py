@@ -39,7 +39,8 @@ for key in hit_dict:
 			if feature == 'gene':
 				new_description = split_description[0] + ' ' + split_description[3]
 			else:
-				continue
+				new_description = split_description[0]			### if you want to print all output features
+#				continue		### if you only want to print genes
 			line2 = 'Chr' + Chromosome + '\t' + feature + '\t ' + start + '\t' + end + '\t' + new_description
 #	loop over hits in motif_dict and feed in start and end coordinates
 			for hit in motif_dict:
