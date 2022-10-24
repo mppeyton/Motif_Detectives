@@ -1,0 +1,4 @@
+upregulated gene: WBGene00003400 contains this motif:AGTTGAGAATCAGTTGA annotation ID=gene:WBGene00003400 description=Death-associated protein kinase dapk-1%3B Non-specific serine/threonine protein kinase [Source:NCBI gene%3BAcc:187322]
+upregulated gene: WBGene00004509 contains this motif:AGTTGAGAATCAGTTGA annotation ID=gene:WBGene00004509 description=RNA-directed RNA polymerase [Source:NCBI gene%3BAcc:173092]
+upregulated gene: WBGene00022358 contains this motif:AGTTGAGAATCAGTTGA annotation ID=gene:WBGene00022358 description=E3 ubiquitin-protein ligase%3B HECT-type E3 ubiquitin transferase [Source:NCBI gene%3BAcc:171719]
+upregulated gene: WBGene00022388 contains this motif:AGTTGAGAATCAGTTGA annotation ID=gene:WBGene00022388 description=DZF domain-containing protein [Source:NCBI gene%3BAcc:190806]
