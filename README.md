@@ -22,8 +22,8 @@ INPUTS (links below): <br>
 OUTPUT: <br>
 - FILE.txt
 <br>
-To test the code developed, we will use the [C. elegans](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwicv-qEpPf6AhVTk4kEHQfPAX0QFnoECBQQAQ&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCaenorhabditis_elegans&usg=AOvVaw0_aL9Y_xW2S39CMMZfjS5c) genome (specifically, Chr 1) and the [Retinoic Acid Response Element](https://www.researchgate.net/figure/Alignments-of-known-DR5-RARE-motifs-in-the-promoters-of-the-Cyp26A1-RAR2-RAR2-RAR2_fig1_232304935) motif (RARE-DR5)<br>
-<br>
+To test the code developed, we will use the [C. elegans](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwicv-qEpPf6AhVTk4kEHQfPAX0QFnoECBQQAQ&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCaenorhabditis_elegans&usg=AOvVaw0_aL9Y_xW2S39CMMZfjS5c) genome (specifically, Chr 1) and the [Retinoic Acid Response Element](https://www.researchgate.net/figure/Alignments-of-known-DR5-RARE-motifs-in-the-promoters-of-the-Cyp26A1-RAR2-RAR2-RAR2_fig1_232304935) motif (RARE-DR5)
+
 **INPUT FILES:**
 <br>
 - *FASTA FILE* [Caenorhabditis_elegans.WBcel235.dna.chromosome.I.fa.gz](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fftp.ensembl.org%2Fpub%2Frelease-108%2Ffasta%2Fcaenorhabditis_elegans%2Fdna%2FCaenorhabditis_elegans.WBcel235.dna.chromosome.I.fa.gz&amp;data=05%7C01%7Cbrianda.lavina%40uky.edu%7C2e3e746bc07c4ff37e6208dab3d1e55b%7C2b30530b69b64457b818481cb53d42ae%7C0%7C0%7C638020012360908962%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=8B6wS2qgy9x63e%2FgpBYHPQLxKGsh49EiRrJjqm6VXt4%3D&amp;reserved=0) <br>
